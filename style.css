@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'popins',sans-serif;
+}
+h1{
+    text-align: center;
+    padding: 25px;
+    background-color: cornflowerblue;
+}
+.container{
+    display: flex;
+    background-color: lightblue;
+    height: 1400px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container> img{
+    background-color: bisque;
+    margin:10px;
+    padding: 4px;
+    border-radius: 10px;
+    height: 250px;
+}
